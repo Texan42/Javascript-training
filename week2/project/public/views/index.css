@@ -1,0 +1,17 @@
+.customBody{
+    font-family: Arial;
+    text-align: center;
+}
+
+.companyNames{
+    font-size: x-large;
+}
+
+.images{
+    max-width: 60%;
+}
+
+.companyLinks{
+    color: white;
+    font-size: medium;
+}
