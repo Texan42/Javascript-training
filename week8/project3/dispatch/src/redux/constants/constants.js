@@ -1,0 +1,20 @@
+//CUSTOMER INFO
+export const CXINFO_FETCHING = "CXINFO_FETCHING";
+export const CXINFO_SUCCESS = "CXINFO_SUCCESS";
+export const CXINFO_FAILED = "CXINFO_FAILED";
+
+// DRIVER INFO
+export const DRIVERINFO_FETCHING = "DRIVERINFO_FETCHING";
+export const DRIVERINFO_SUCCESS = "DRIVERINFO_SUCCESS";
+export const DRIVERINFO_FAILED = "DRIVERINFO_FAILED";
+
+export const DRIVER_ID = "DRIVER_ID";
+
+export const CUSTOMER_ID = "CUSTOMER_ID";
+
+// Active constumer and driver
+export const CUSTOMER_INDEX = "CUSTOMER_INDEX";
+export const DRIVER_INDEX = "DRIVER_INDEX";
+
+export const SEND_DRIVER_OUT = "SEND_DRIVER_OUT";
+export const UPDATE_DRIVER = "UPDATE_DRIVER";

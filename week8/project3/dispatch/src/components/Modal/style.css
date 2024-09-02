@@ -1,0 +1,48 @@
+.modal-container {
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background: #555;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.modal {
+    position: fixed;
+    width: 80%;
+    min-height: 80vh;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.drivers {
+    margin-top: 100px;
+    margin-right: 7px;
+    margin-left: 2px;
+}
+
+.modal .drivers {
+    max-width: 100%;
+}
+
+.x {
+    position: fixed;
+    margin-top: 0%;
+    right: 10px;
+    color: crimson;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.none{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+
+

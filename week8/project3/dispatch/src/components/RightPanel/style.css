@@ -1,0 +1,16 @@
+.driver-panel::-webkit-scrollbar {
+    display: none;
+}
+  
+.driver-panel {
+    position: absolute;
+    width: 20%;
+    height: calc(100vh - 91px);
+    top: 90px;
+    right: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.219);
+    box-shadow: 0.3em 1em 1em black;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

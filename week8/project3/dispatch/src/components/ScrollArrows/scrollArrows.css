@@ -1,0 +1,55 @@
+.upArrow, .downArrow {
+  position: fixed;
+  left: 7.6vw;
+  font-size: 58px;
+  color: rgb(67, 180, 255);
+  opacity: 75%;
+  z-index: 20;
+}
+
+.downArrow {
+  bottom: 0.2vh;
+  animation: bounceDownArrowDown 2s ease infinite;
+}
+
+.upArrow {
+  top: 85px;
+  animation: bounceUpArrowUp 2s ease infinite;
+}
+
+.hideArrow {
+  animation: fade-out 1s linear forwards !important;
+}
+
+@keyframes bounceUpArrowUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceDownArrowDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
+}

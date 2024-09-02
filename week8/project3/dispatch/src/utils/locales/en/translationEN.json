@@ -1,0 +1,23 @@
+{
+  "Login": "Login",
+  "Logout": "Logout",
+  "DriverLogin": "Driver Login",
+  "EnterPin": "Enter Pin",
+  "PizzaStormTitle": "PizzaStorm Dispatch Terminal",
+  "ClockIn": "Clock In",
+  "ClockOut": "Clock Out",
+  "IN": "IN",
+  "OUT": "OUT",
+  "noDrivers": "No drivers currently available",
+  "CustomerName": "Customer Name",
+  "OrderNumber": "Order Number",
+  "Address": "Address",
+  "noCustomers": "There are no Customers Currently",
+  "TotalDistance": "Total Distance",
+  "TotalDuration": "Total Duration",
+  "LegTime": "Leg Time",
+  "LegDistance": "Leg Distance",
+  "Miles": "miles",
+  "Minutes": "minutes",
+  "RouteInformation": "No route information available."
+}

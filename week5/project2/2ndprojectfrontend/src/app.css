@@ -1,0 +1,233 @@
+/* login page style */
+.loginBgr{
+    background-image: url('./images/loginpageimg.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.loginPosition{
+    display: grid;
+    justify-content: center;
+    margin-left: 42.4vw;
+    margin-top: 29vh;
+    border: 2px solid black;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+}
+
+.loginBtn{
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    background-color: slategray;
+    color: white;
+}
+
+.signUpBtn{
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: slategray;
+    color: white;
+}
+
+/* home page style */
+
+.HPNav{
+    display: grid;
+    grid-template-columns: 93% 7%;
+    background-color: teal;
+    
+}
+
+.HPHotelName{
+    margin-left: 45vw;
+    margin-top: 1vh;
+    color: white;
+    font-family: 'Gill Sans MT';
+}
+
+.HPAccountLink{
+    font-size: x-large;
+    margin-top: 1vh;
+    color: white;
+    font-family: 'Gill Sans MT';
+}
+
+.HPReserveOptions{
+    display: grid;
+    grid-template-columns: 26% 15% 15% 30% 10%;
+    margin-left: 14vw;
+    margin-right: 8vw;
+    margin-top: 6vh;
+    font-family: 'Gill Sans MT';
+    font-size: large;
+}
+
+.HPDropdown{
+    height: 40px;
+    width: 12vw;
+    border-radius: 5px;
+}
+
+.HPDateSelect{
+    height: 35px;
+    width: 7.5vw;
+    border-radius: 5px;
+}
+
+.BookBtn{
+    border-radius: 5px;
+    height: 40px;
+    width: 105px;
+    background-color: teal;
+    margin-left: -2vw;
+    color: white;
+}
+
+.HPCarousel{
+    margin-top: 4vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border: 30px solid teal;
+    border-radius: 5px;
+}
+
+/* Account page style */
+
+.AccountNav{
+    display: grid;
+    grid-template-columns: 93% 7%;
+    background-color: teal;
+    
+}
+
+.AccountHotelName{
+    margin-left: 45vw;
+    margin-top: 1vh;
+    color: white;
+    font-family: 'Gill Sans MT';
+}
+
+.AccountHPLink{
+    font-size: x-large;
+    margin-top: 1vh;
+    color: white;
+    font-family: 'Gill Sans MT';
+}
+
+.AccountGrid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 15vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.GridTop{
+    color: white;
+    background-color: teal;
+    border: 1px solid white;
+    font-size: x-large;
+    font-family: 'Gill Sans MT';
+    border-radius: 5px;
+}
+
+.GridBody{
+    color: white;
+    background-color:dimgray;
+    border: 1px solid white;
+    font-size: larger;
+    font-family: 'Gill Sans MT';
+    border-radius: 5px;
+}
+
+.SignOutButton{
+    margin-top: 5vh;
+    margin-left: 47vw;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: dimgray;
+    color: white;
+}
+/* CC Info style */
+
+.ccInfoBgr{
+    background-image: url('./images/ccInfoBg.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.ccInfoPosition {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 30vh;
+    border: 2px solid black;
+    background-color: white;
+    width: 30%;
+    height: 300px;
+}
+
+/* Payment Style */
+
+.paymentBgr{
+    background-image: url('./images/ccInfoBg.jpg');
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.paymentPosition {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.paymentFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.column1 {
+    grid-column: 2/3;
+}
+
+.column2 {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column: 4/5;
+}
+
+.justifyRight{
+    display: grid;
+    justify-items: flex-end;
+}
+
+.padField {
+    padding-bottom: 25px;
+}
+
+.totalPosition{
+    
+    grid-row: 3/4;
+}
+
+.paymentBtn{
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+    background-color: slategray;
+    margin-bottom: 25px;
+}

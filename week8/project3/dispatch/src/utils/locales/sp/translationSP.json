@@ -1,0 +1,23 @@
+{
+  "Login": "Login",
+  "Logout": "Logout",
+  "DriverLogin": "El conductor login",
+  "EnterPin": "Ingresar el Pin",
+  "PizzaStormTitle": "PizzaStorm Despacho Terminal",
+  "ClockIn": "Entrada",
+  "ClockOut": "Salida",
+  "IN": "ENTRAR",
+  "OUT": "SALIR",
+  "noDrivers": "No hay conductores disponibles.",
+  "CustomerName": "Nombre del cliente",
+  "OrderNumber": "Número de orden",
+  "Address": "Dirección",
+  "noCustomers": "No hay clientes actualmente.",
+  "TotalDistance": "Distancia Total",
+  "TotalDuration": "Duración Total",
+  "LegTime": "Distancia de Ruta",
+  "LegDistance": "Duración de Ruta",
+  "Miles": "millas",
+  "Minutes": "minutos",
+  "RouteInformation": "No hay información disponible sobre la ruta."
+}

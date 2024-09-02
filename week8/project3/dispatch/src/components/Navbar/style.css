@@ -1,0 +1,29 @@
+.nav {
+    height: 90px;
+    width: 100%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.274);
+    background-color: orange;
+    position: absolute;
+    display: flex;
+}
+  
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    width: 100%;
+}
+  
+.left-nav {
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.right-nav {
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+}

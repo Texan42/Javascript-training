@@ -1,0 +1,16 @@
+.customer-panel {
+    position: relative;
+    width: 20%;
+    height: calc(100vh - 91px);
+    top: 90px;
+    overflow-y: auto;
+    overflow-x: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-right: 2px solid rgba(0, 0, 0, 0.212);
+    word-break: break-all;
+}
+  
+.customer-panel::-webkit-scrollbar {
+    display: none;
+}
