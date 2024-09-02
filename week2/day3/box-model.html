@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indes.css">
+    <style>
+        div{
+            border: 1px solid black;
+            padding: 5px;
+            height: 100px;
+            width: 100px;
+        }
+        /*
+            types of selectors
+            1. HTML element selector ex. div  lowest specificity
+            2. class selector ex. .red        inbetween specificity
+            3. id selector ex. #navbar        highest specificity
+        */
+        p{
+            border: 1px solid salmon;
+            margin: 5px;
+            text-align: center;
+        }
+        .red{
+            border: 5px solid red;
+        }
+        #main{
+            border: 5px solid green;
+        }
+        .container:hover{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Box Model:
+        !. Content -content of the page
+        2. Border - border that surrounds content
+        3. Margin - transparent buffer around the border
+        4. Padding - transparent buffer between the border and content
+    -->
+    <div class="red container">
+        <p>
+            Hello World!
+        </p>
+    </div>
+    <div id=main>
+
+    </div>
+</body>
+</html>

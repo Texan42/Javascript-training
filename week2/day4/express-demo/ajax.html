@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function loadPageData({username}) {
+            const div = document.getElementById('data');
+            div.innerText = username;
+        }
+
+        function sendAjax() {
+            // XMLHttpRequest -> AJAX Call -> Asynchronous JavaScript
+            // Create new Post request -> Send Post Request -> Await response from server
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Creates a HTTP Request to send to a server
+            const xhr = new XMLHttpRequest(); //axios
+            xhr.onreadystatechange = () => {
+                console.log(xhr.readyState)
+                if (xhr.readyState === 4) {
+                    // Parses JSON data into a JavaScript object
+                    const data = JSON.parse(xhr.response);
+                    console.log(data);
+                    loadPageData(data);
+                    // const xhr2 = new XMLHttpRequest();
+                    // xhr2.open('POST', '/execute');
+                    // xh2.send(xhr.response);
+                }
+            }
+            xhr.open('POST', '/form');
+            // Specifies the content as a json object
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            // Translates our object into JSON and sends
+            xhr.send(JSON.stringify({username, password})); // {"username": "Sean", "password": "Carter"}
+        }
+    </script>
+</head>
+<body>
+    Username <input type="text" id="username"/>
+    Password <input type="password" id="password"/>
+    <input value="Submit" type="button" onclick="sendAjax()"/>
+    <input value="Google" type="button" onclick="google()"/>
+    <div id="data"></div>
+</body>
+</html>

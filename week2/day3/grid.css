@@ -1,0 +1,35 @@
+.grid {  /* Grid is a 2 dimensional model, letting you work on horizontal and vertical axis */
+    display: grid;
+    border: 5px solid black;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.elem{
+    text-align: center;
+    line-height: 10rem;
+    font-size: 30px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.pink{
+    background-color: pink;
+}

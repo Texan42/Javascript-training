@@ -1,0 +1,9 @@
+.blue {
+    color: blue;
+}
+.movie-container{
+    border: 1px solid black;
+    margin: auto;
+    width: 50%;
+    margin-top: 20vh;
+}

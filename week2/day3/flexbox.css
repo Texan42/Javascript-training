@@ -1,0 +1,30 @@
+.container{ /* Flex box is one dimensional model, working only on horizontal OR vertical axis, can wrap but that just creates another flex box */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50rem;
+    width: 50rem;
+    border: 5px solid black;
+}
+
+.elem{
+    padding: 5px;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}

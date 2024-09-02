@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Movie</title>
+</head>
+<body>
+    <h1>Hello create movie!</h1>
+    <!--post request to localhost:8085/addmovie on form submission-->
+    <form method="POST" action="/movies">
+        <label for="title">Title: </label>
+        <input type="text" name="title" id = "title">
+
+        Director: <input type="text" name="director">
+
+        Year: <input type="number" name="year">
+
+    <input type="submit" value = "submit"></form>
+</body>
+</html>

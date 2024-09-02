@@ -1,0 +1,16 @@
+{
+    title: 'Florida Man Strikes Again',
+    heroImage: 'https://www.google.com/images/41234782314',
+    altImage: './public/images/florida-man',
+    tags: ['florida', 'florida man', 'aligators', 'alcohol'],
+    author: {
+        name: 'Gary',
+        username: 'garyInFlorida92',
+        image: 'https://www.google.com/images/35443124'
+    },
+    contents: 'Lorem ipsum ...'
+}
+
+See more by this author <- Button
+
+Look up the username

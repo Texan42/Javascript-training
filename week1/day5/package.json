@@ -1,0 +1,14 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Sam Henderson",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.2.1"
+  }
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+  }
+  
+  div {
+    font-family: Arial;
+    font-size: 20px;
+  }
+  
+  .text {
+    font-family: Arial;
+    font-size: 30px;
+  }
+
+  .flexbox {
+      display: flex;
+  }
+
+  .grid {
+      display: grid;
+  }

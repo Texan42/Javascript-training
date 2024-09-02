@@ -1,0 +1,32 @@
+/* Global styles */
+html, body {
+    background-color: #e0dbdb;
+    padding: 0px;
+    margin: 0px;
+}
+
+#main {
+    border: 5px solid chartreuse;
+}
+
+/* Psuedo selectors */
+.container:hover {
+    background-color: brown;
+}
+
+.red {
+    border: 3px solid red;
+    background-color: tomato;
+}
+
+#border-black {
+    border: 10px solid black;
+}
+
+
+p {
+    margin: 10px;
+    border: 1px solid salmon;
+    padding: 10px;
+    text-align: center;
+}

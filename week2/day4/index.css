@@ -1,0 +1,22 @@
+.form-container {
+    border: 1px solid black;
+    margin: auto;
+    width: 63%;
+    text-align: center;
+    margin-top: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.black-box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
